@@ -1,10 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"> -->
+     <link rel="stylesheet" href="css/slick.css">
+     <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
+     <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 fw-semibold">
+                <li class="nav-item px-2">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Pricing & Plan</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <button class="bttn"><a href="#">Lets talk</a></button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 space">
+            <div class="head-sub">
+              <span>Boost Your Business</span>
+              <h2>We Are Best <br><span>Digital Marketing </span><br>Agency</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima ipsum et eius sunt libero?</p>
+            </div>
+            <button class="bttn"><a href="#">Try for Free</a></button>
+          </div>
+          <div class="col-lg-6">
+            <div class="imgBox">
+              <div class="iconcircle px-3 py-3">
+                <div class="icons">
+                  <i class="bi bi-facebook fb"></i>
+                  <i class="bi bi-linkedin lk"></i>
+                  <i class="bi bi-instagram insta"></i>
+                </div>
+              </div>
+              <img src="img/person.png" alt="" class="img-fluid w-50">
+            </div>
+          </div>
+        </div>
+        <div class="trusted my-5">
+          <h5 class="text-center pt-5 fw-bold">Our Trusted Clients</h5>
+          <div class="row mx-5 py-5 px-5">
+            <div class="col-lg-2 me-4">
+              <span><i class="bi bi-filter-circle-fill"></i> Logoipsum</span>
+            </div>
+            <div class="col-lg-2 me-4">
+              <span class="fw-bold"
+                ><i class="bi bi-filter-circle-fill"></i> Logoipsum</span
+              >
+            </div>
+            <div class="col-lg-2 me-4">
+              <span><i class="bi bi-filter-circle-fill"></i> Logoipsum</span>
+            </div>
+            <div class="col-lg-2 me-4">
+              <span><i class="bi bi-filter-circle-fill"></i> Logoipsum</span>
+            </div>
+            <div class="col-lg-2">
+              <span><i class="bi bi-filter-circle-fill"></i> Logoipsum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="imgBox"><img src="img/pic1.jpg" alt="" class="img-fluid"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="head-sub">
+          <span>About Our Company</span>
+          <h2>we are here for <span>business solutions</span> & Ideas</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed commodi officia amet blanditiis quos ipsum labore autem praesentium, tempore pariatur.</p>
+          </div>
+          <ul class="fw-semibold tick" style="--col:palevioletred">
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+          <button class="bttn">Contact Us</button>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="what my-5">
+      <div class="container">
+        <div class="head-sub text-center">
+        <span>What We Do!</span>
+        <h2 class="m-auto my-3">let's check our digital <span>marketing solutions</span></h2>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(179, 26, 68, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  <img src="img/article.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">Content Marketing</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(26, 104, 179, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  <img src="img/social.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">Content Marketing</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(92, 251, 42, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  <img src="img/search.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">Content Marketing</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(179, 26, 68, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  ;
+                  <img src="img/cost.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">PPC Advertising</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(251, 147, 42, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  <img src="img/ppc.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">Competitor Research</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body text-start">
+                <div
+                  class="imgBx mb-3"
+                  style="
+                    --clr: linear-gradient(
+                      180deg,
+                      rgba(2, 0, 36, 1) 0%,
+                      rgba(157, 0, 0, 1) 0%,
+                      rgba(255, 255, 255, 1) 100%
+                    );
+                  "
+                >
+                  <img src="img/site.png" alt="" />
+                </div>
+                <h5 class="card-title py-2">Content Marketing</h5>
+                <p class="card-text lh-base text-muted">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link text-muted"
+                  >Read More <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="boost">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="head-sub">
+              <span>Boosts your website traffic!</span>
+              <h2>test your website for free with <span>rankon</span></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, illum! Aliquam animi laboriosam voluptatum voluptates!</p>
+            </div>
+            <div class="url-mail">
+              <input type="search" name="" id="url" placeholder="Website URL">
+              <input type="email" name="" id="mail" placeholder="Email Address">
+            </div>
+            <button class="bttn">Analyze Website</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="imgBox"><img src="img/boost.png" alt="" class="img-fluid w-50"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plan">
+      <div class="container">
+        <div class="head-sub text-center">
+          <span>our plan and pricing</span>
+          <h2 class="middle">take a look of our <span>pricing</span> and select your choice</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <div class="imgBx" style="--clr:linear-gradient(180deg,
+                  rgba(2, 0, 36, 1) 0%,
+                  rgba(179, 26, 68, 1) 0%,
+                  rgba(255, 255, 255, 1) 100%
+                  );">
+                 <img src="img/seo.png" alt=""></div>
+                <h6>Trial Version</h6>
+                <ul>
+                <li class="tick" style="--col:palevioletred">Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li class="tick" style="--col:palevioletred">Lorem ipsum</li>
+                <li class="tick" style="--col:palevioletred">Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li class="tick" style="--col:palevioletred">Lorem ipsum</li>
+                </ul>
+                <h5 class="card-title">Free</h5>
+                <a href="#" class="btnn">Try for Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <div class="imgBx" style="--clr:linear-gradient(180deg,
+                  rgba(2, 0, 36, 1) 0%,
+                  rgba(179, 26, 68, 1) 0%,
+                  rgba(255, 255, 255, 1) 100%
+                  );">
+                 <img src="img/seo.png" alt=""></div>
+                <h6>Regular Version</h6>
+                <ul class="tick" style="--col:palevioletred;">
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                </ul>
+                <h5 class="card-title">$29<span>/mo</span></h5>
+                <a href="#" class="bttn">Try for Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <div class="imgBx" style="--clr:linear-gradient(180deg,
+                  rgba(2, 0, 36, 1) 0%,
+                  rgba(179, 26, 68, 1) 0%,
+                  rgba(255, 255, 255, 1) 100%
+                  );">
+                 <img src="img/seo.png" alt=""></div>
+                <h6>Extended Version</h6>
+                <ul class="tick" style="--col: darkblue;">
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                </ul>
+                <h5 class="card-title">$49<span>/mo</span></h5>
+                <a href="#" class="btnn">Try for Free</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="success">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="imgBox"><img src="img/success-story.png" alt="img-fluid"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="head-sub">
+              <span>our success story</span>
+              <h2>boost your conversation rate with <span>rankon</span></h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, nisi consequatur veniam similique reprehenderit temporibus!</p>
+            </div>
+            <div class="row divider">
+              <div class="col-lg-4">
+              <h4 class="six">6x</h4>
+              <p>Increase in Search Traffic</p>
+              </div>
+              <div class="col-lg-4">
+              <h4 class="fortyseven">47%</h4>
+              <p>Increase in Search Traffic</p>
+              </div>
+              <div class="col-lg-4">
+              <h4 class="fortyfive">45%</h4>
+              <p>Increase in Search Traffic</p>
+              </div>
+            </div>
+            <button class="bttn">Get Free Consultation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customer-reviews">
+      <div class="container">
+        <div class="head-sub text-center">
+          <span>customers review</span>
+          <h2 class="m-auto">what people say about<br> our services</h2>
+        </div>
+        <div class="row">
+        <div class="col-lg-6">
+          <div class="ss">
+            <div class="ss_items"><img src="img/pic1.jpg" alt=""></div>
+            <div class="ss_items"><img src="img/pic1.jpg" alt=""></div>
+            <div class="ss_items"><img src="img/pic1.jpg" alt=""></div>
+            <div class="ss_items"><img src="img/pic1.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="imgBox"><img src="img/person.png" alt=""></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-article">
+      <div class="container bg">
+        <div class="head-sub text-center">
+          <span>news and article</span>
+          <h2 class="m-auto">know more about our latest <br>case studies</h2>
+        </div>
+        <div class="owl-carousel article-carousel owl-theme" id="testimonial">
+          <div class="item ">
+           <div class="slider">
+            <img src="img/slider.jpg" alt="">
+            <p>What is performnace-Based Marketing?</p>
+           </div>
+          </div>
+          <div class="item ">
+            <div class="slider">
+             <img src="img/slider.jpg" alt="">
+             <p>What is performnace-Based Marketing?</p>
+            </div>
+           </div>
+           <div class="item ">
+            <div class="slider">
+             <img src="img/slider.jpg" alt="">
+             <p>What is performnace-Based Marketing?</p>
+            </div>
+           </div>
+           <div class="item ">
+            <div class="slider">
+             <img src="img/slider.jpg" alt="">
+             <p>What is performnace-Based Marketing?</p>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="imgBox"><img src="img/pic2.png" alt="" class="img-fluid w-50"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="head-sub">
+              <span>stay update with renkon</span>
+              <h2>subscribe our latest newsletter!</h2>
+            </div>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address"><br>
+            <button class="bttn">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="outer-part">
+          <div class="row">
+            <div class="col-lg-4">
+              <span><h5>LOGO</h5></span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque consequatur, harum perspiciatis magnam ratione libero nam inventore recusandae autem nihil!</p>
+            </div>
+            <div class="col-lg-4 services">
+              <h5>Our Services</h5>
+              <ul>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 contact">
+              <h5>Contact</h5>
+              <ul>
+                <li><a href="#"><address>King Street Melbourne, 3000, Australia</address></a></li>
+                <li><a href="mailto:info@rankon.com">Email: info@rankon.com</a></li>
+                <li><a href="tel:+0 (123) (456) (7890)">Phone: +0 (123) (456) (7890)</a></li>
+                <li><a href="#">+0 (123) (456) (7890)</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-end d-flex justify-content-between">
+            <p>Copyright 2021 Rankon.com All Rights Reserved</p>
+            <div>
+              <ul>
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#"></a><i class="bi bi-twitter"></i></li>
+                <li><a href="#"><i class="bi bi-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

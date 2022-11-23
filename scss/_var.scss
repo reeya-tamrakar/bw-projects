@@ -1,0 +1,95 @@
+$brand: palevioletred;
+$brandf: darkblue;
+
+
+.space{
+    padding-top: 60px;
+    padding-left: 60px;
+    h2{line-height: 42px;}
+}
+.bttn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  background: rgb(211, 111, 127);
+  border: none;
+  box-shadow: 1px 15px 38px -6px rgba(212, 144, 144, 0.75);
+  a {color: white;}
+}
+.btnn{
+    padding: 10px 20px;
+  border-radius: 30px;
+  background: white;
+  font-weight: 500;
+  border: 1.5px solid $brandf;
+  color: $brandf;
+  box-shadow: .5px .5px 1px 3px rgb(223, 232, 241);
+}
+
+.head-sub {
+  text-transform: capitalize;
+  margin-top: 20px;
+  span {
+    color: $brand;
+    font-weight: 400;
+  }
+  h2 {
+    margin: 20px 0;
+    color: $brandf;
+    font-weight: 700;
+    width: 80%;
+    span {
+      font-weight: inherit;
+      color: $brand;
+    }
+  }
+  .middle {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0 !important;
+  }
+  p {
+    width: 70%;
+    font-size: 14px;
+    color: $brandf;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.imgBox{
+    position: relative;
+    height: 100%;
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+    }
+}
+
+.tick {
+    li { 
+        position: relative;
+        left: 20px;
+        transition: .5s;
+    }
+    li::before {      
+        content: "\f058";
+        font-family: 'FontAwesome';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        color: var(--col);
+        // -webkit-mask-image: url(../img/check-circle-fill.svg);
+        // background-image: url(../img/check-circle-fill.svg);
+        // background-repeat: no-repeat;
+    }
+}
