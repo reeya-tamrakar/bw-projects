@@ -1,594 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap-Parador</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    />
-    <script
-    src="https://kit.fontawesome.com/0ca367f40a.js"
-    crossorigin="anonymous"
-    prefetch 
-    ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css/style.css" />
   </head>
   <body>
-    <section class="top border-bottom">
-      <div class="d-flex flex-row justify-content-between align-items-center">
-        <div class="top-left">
-          <ul class="mb-0">
-            <li class="border-end border-white">
-              <i class="fas fa-envelope"></i> parador@gmail.com
-            </li>
-            <li class="border-end border-light">
-              <i class="fas fa-phone-alt"></i> +888 (123) 869523
-            </li>
-            <li>
-              <i class="fa fa-map-marker-alt"></i> New York – 1075 Firs Avenue
-            </li>
-          </ul>
-        </div>
-        <div class="top-right">
-          <ul class="mb-0">
-            <li class="border-end border-light">
-              English <i class="fas fa-chevron-down"></i>
-            </li>
-            <a href="#"
-              ><li><i class="fab fa-facebook-f"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fab fa-twitter"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fab fa-linkedin-in"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fab fa-instagram"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fab fa-pinterest-p"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fab fa-youtube"></i></li
-            ></a>
-          </ul>
-        </div>
-      </div>
-      <!-- <div class="cart">
-        <a href="#" class="btn"><i class="fa fa-times"></i></a>
-      </div> -->
-    </section>
 
-
-    <nav class="navbar navbar-expand-lg navbar-dark py-3">
-      <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand pt-3" href="#"
-            ><img src="img/logo.png" alt="logo"
-            /></a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center fw-bolder">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                <div class="dropdown-nav">
-                  <ul>
-                    <li><a href="#">Home style 1</a></li>
-                    <li><a href="#">Home style 2</a></li>
-                    <li><a href="#">Home style 3</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Room</a>
-                <div class="dropdown-nav">
-                  <ul>
-                    <li><a href="#">Room style 1</a></li>
-                    <li><a href="#">Room style 2</a></li>
-                    <li><a href="#">Room style 3</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Destination</a>
-                <div class="dropdown-nav">
-                  <ul>
-                    <li><a href="#">Destination</a></li>
-                    <li><a href="#">Destination Single</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-                <div class="dropdown-nav">
-                  <ul>
-                    <li><a href="#">Blog 1</a></li>
-                    <li><a href="#">Blog 2</a></li>
-                    <li><a href="#">Blog 3</a></li>
-                    <li><a href="#">Blog 4</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <ul class="navbar-nav">
-            <li class="nav-item search-container mx-1">
-              <div class="icons search"></div>
-              <div class="search-box px-3 py-3 rounded-3">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <i class="fa fa-search"></i>
-                  </div>
-              </div>
-            </li>
-            <li class="icons nav-item mx-1 "><i class="fa fa-shopping-cart"></i><span>0</span></li>
-          </ul>
-        </div>
-        <div class="cart">
-          <span class="close"><i class="fa fa-close"></i></span>
-          <img src="http://parador-react.wpocean.com/static/media/hotel.1b0f8d3f62b42c6ca8e5.png" alt="" srcset="">
-          <div class="summary">
-            <p>Subtotal: <span>$0</span></p>
-            <button class="btn btn-secondary w-100 disabled">Checkout</button>
-            <button class="btn btn-danger w-100">View Cart</button>
-          </div>
-        </div>
-    </nav>
-
-    <section class="main-banner">
-      <div class="content w-100">
-        <h1 class="w-50 ms-5 ps-5"><strong> Find Your Perfect Place To Stay</strong></h1>
-        <div class="ms-5"><button class="b ms-5 mt-5 px-5 py-3 rounded-2">Book Now</button></div>
-      </div>
-    </section>
-
-    <section class="capsule container m-auto">
-      <div class="input-group mb-3">
-        <div class="booking d-flex gap-3 align-items-center rounded-left">
-          <input type="date" class="border-end border-dark" value="2022-02-10" name="" id="">
-          <input type="date" class="border-end border-dark" value="2022-02-11" name="" id="">
-          <div>
-            <i class="fa fa-user"></i> 0 Adults &#9679; 0 Children &#9679; 0 Room
-          </div>
-        </div>
-        <button class="btn rounded-right shadow px-5" type="button">Check Availability</button>
-      </div>
-    </section>
-
-    <section class="popular py-5 py-md-0">
-      <div class="container ms-auto my-5">
-      <h2 class="text-center pt-4">Our Most Populer Room</h2>
-      <p class="text-center w-50 m-auto py-3">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-1">
-          <div class="imgBx rounded-4">
-            <img src="img/room1.jpg" alt="room1" class="img-fluid rounded-4">
-          </div>
-          <h4 class="pt-5 pt-md-4">Deluxe Contrast Room</h4>
-          <p class="text-muted pt-3 pt-md-2"><i class="fas fa-expand-arrows-alt"></i>&nbsp; 52 sqm&nbsp;&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp; 2 Bed &nbsp;&nbsp;<i class="fa fa-bath"></i> &nbsp; 1 Bathroom</p>
-          <p class="pt-4 py-md-2"><span><strong>$200</strong></span> / Night</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="imgBx rounded-4">
-            <img src="img/room2.jpg" alt="room2" class="img-fluid rounded-4">
-          </div>
-          <h4 class="pt-5 pt-md-4">Luxery Twin Room</h4>
-          <p class="text-muted pt-3 pt-md-2"><i class="fas fa-expand-arrows-alt"></i>&nbsp; 52 sqm&nbsp;&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp; 2 Bed &nbsp;&nbsp;<i class="fa fa-bath"></i> &nbsp; 1 Bathroom</p>
-          <p class="pt-4 py-md-2"><span><strong>$250</strong></span> / Night</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="imgBx rounded-4">
-            <img src="img/room3.jpg" alt="room3" class="img-fluid rounded-4">
-          </div>
-          <h4 class="pt-5 pt-md-4">Single Contrast Room</h4>
-          <p class="text-muted pt-3 pt-md-2"><i class="fas fa-expand-arrows-alt"></i>&nbsp; 52 sqm&nbsp;&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp; 2 Bed &nbsp;&nbsp;<i class="fa fa-bath"></i> &nbsp; 1 Bathroom</p>
-          <p class="pt-4 py-md-2"><span><strong>$230</strong></span> / Night</p>
-        </div>
-      </div>
-    </div>
-    </section>
-
-    <section class="banner">
-      <div class="container-fluid lh-lg ps-3">
-        <p class="ex pt-4">EXCLUSIVE OFFER</p>
-        <h3 class="fw-bolder pb-2">Enjoy Your Dream Vacation In switzerland</h3>
-        <div class="d-flex py-3">
-          <div class="pe-3 border-end">
-          <p class="border-right fw-semibold">2 Days / 3 Night</p>
-          <p class="mt-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"> </i></p>
-          </div>
-          <div class="ps-3">
-          <p class="text-muted"> Only</p>
-          <p class="fs-4 fw-semibold"><span>$2500</span></p>
-          </div>
-          <div><button class="b ms-4 mt-2 px-5 py-2 rounded-2">Book Now</button></div>
-      </div>
-    </section>
-
-    <section class="counter mt-5">
-      <div class="row container m-auto text-center py-5">
-        <div class="col-md-3 col-6 border-end border-5">
-          <strong><h1>302+</h1></strong>
-          <p>Room & Suites</p>
-        </div>
-        <div class="col-md-3 col-6 border-end border-5">
-          <strong><h1>25</h1></strong>
-          <p>Restaurant</p>
-        </div>
-        <div class="col-md-3 col-6 border-end border-5">
-          <strong><h1>510+</h1></strong>
-          <p>Exceptional Food</p>
-        </div>
-        <div class="col-md-3 col-6">
-          <strong><h1>35</h1></strong>
-          <p>Destination</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="destination py-5 mb-5">
-      <div class="row container m-auto py-5">
-        <div class="col-lg-6 col-md-8">
-          <h2>Our Most Populer Destination</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-        </div>
-        <div class="col-lg-3 d-md-none d-lg-block"></div>
-        <div class="col-lg-3 col-md-4 pt-4"><button class="bttn px-5 py-2 py-md-1 rounded-2">View All</button></div>
-      </div>
-      <div class="row container m-auto mb-5">
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow rounded-4" style="width: 23rem; ">
-            <div class="imgBox">
-            <img src="img/destination1.jpg" class="card-img-top" alt="destination1">
-            </div>
-            <div class="card-body ps-3">
-              <p class="card-text py-3 py-md-2">Vietnam Sea Beach</p>
-              <h3>Luxery Hotel and Resort</h3>
-              <p class="py-3 icon"><span class="border-end pe-3">$200 Per Night</span> &nbsp;&nbsp;<span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"> </i> &nbsp;&nbsp;4.5</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow rounded-4" style="width: 23rem; ">
-            <div class="imgBox">
-            <img src="img/destination2.jpg" class="card-img-top" alt="destination2">
-            </div>
-            <div class="card-body ps-3">
-              <p class="card-text py-3 py-md-2">Paris, France</p>
-              <h3>The Paris Grand Palace</h3>
-              <p class="py-3 icon"><span class="border-end pe-3">$200 Per Night</span> &nbsp;&nbsp;<span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"> </i> &nbsp;&nbsp;4.5</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow rounded-4" style="width: 23rem; ">
-            <div class="imgBox">
-            <img src="img/destination3.jpg" class="card-img-top" alt="destination3">
-            </div>
-            <div class="card-body ps-3">
-              <p class="card-text py-3 py-md-2">Vaadhoo, Maldives</p>
-              <h3>Sea Of Stars Resident</h3>
-              <p class="py-3 icon"><span class="border-end pe-3">$200 Per Night</span> &nbsp;&nbsp;<span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"> </i> &nbsp;&nbsp;4.5</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="owl-carousel">
-      <div>
-        <img src="img/owl1.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fa fa-dumbbell"></i>
-          <p>Exercise Space</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl2.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fa fa-mug-hot"></i>
-          <p>Breakfast</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl.3.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fas fa-utensils"></i>
-          <p>Delicious Food</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl4.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fas fa-hot-tub"></i>
-          <p>Spa Salon</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl5.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fas fa-wifi"></i>
-          <p>Free Wifi</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl6.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fas fa-swimmer"></i>
-          <p>Swimming Pool</p>
-        </div>
-      </div>
-      <div>
-        <img src="img/owl.7.jpg" alt="carousel-img">
-        <div class="inside">
-          <i class="fas fa-parking"></i>
-          <p>Parking Area</p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="packages py-5 mb-5">
-      <div class="container m-auto">
-      <h2 class="text-center">Our Awesome Packages</h2>
-      <p class="text-center w-50 m-auto py-3">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-      <div class="row pt-5">
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow" style="width: 23rem;">
-            <div class="imgBox">
-            <img src="img/package1.jpg" class="card-img-top" alt="package1">
-            </div>
-            <div class="card-body text-center py-4">
-              <p class="card-text">BASIC PACKAGE</p>
-              <p><strong class="fs-1">$250</strong><strong class="fs-5">/Per Night</strong></p>
-            </div>
-          </div>
-          <div class="card shadow border-top-0" style="width: 23rem;">
-            <div class="card-body text-center lh-lg py-4 mb-4">
-              <p class="card-text">Altime Free Wifi</p>
-              <p>2 People Breakfast</p>
-              <p>2 People in Room</p>
-              <p class="mb-4">1 Bed Room</p>
-              <a href="#" class="bttn px-5 py-2 px-md-4 rounded-3">Book Rooms</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow" style="width: 23rem;">
-            <div class="imgBox">
-            <img src="img/package2.jpg" class="card-img-top" alt="package2">
-            </div>
-            <div class="card-body text-center py-4">
-              <p class="card-text">BASIC PACKAGE</p>
-              <p><strong class="fs-1">$450</strong><strong class="fs-5">/Per Night</strong></p>
-            </div>
-          </div>
-          <div class="card shadow border-top-0" style="width: 23rem;">
-            <div class="card-body text-center lh-lg py-4 mb-4">
-              <p class="card-text">Altime Free Wifi</p>
-              <p>2 People Breakfast</p>
-              <p>2 People in Room</p>
-              <p class="mb-4">1 Bed Room</p>
-              <a href="#" class="bttn px-5 py-2 px-md-4 rounded-3">Book Rooms</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card shadow" style="width: 23rem;">
-            <div class="imgBox">
-            <img src="img/package3.jpg" class="card-img-top" alt="package3">
-            </div>
-            <div class="card-body text-center py-4">
-              <p class="card-text">BASIC PACKAGE</p>
-              <p><strong class="fs-1">$650</strong><strong class="fs-5">/Per Night</strong></p>
-            </div>
-          </div>
-          <div class="card shadow border-top-0" style="width: 23rem;">
-            <div class="card-body text-center lh-lg py-4 mb-4">
-              <p class="card-text">Altime Free Wifi</p>
-              <p>2 People Breakfast</p>
-              <p>2 People in Room</p>
-              <p class="mb-4">1 Bed Room</p>
-              <a href="#" class="bttn px-5 py-2 px-md-4 rounded-3">Book Rooms</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-
-    <section class="latest py-5">
-      <div class="text-center">
-        <h2>Latest News</h2>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page.
-        </p>
-      </div>
-      <div class="row py-5 container m-auto">
-        <div class="col-lg-4 col-md-6">
-          <div class="img-content">
-            <h3>Things You Must Need to See While You're In Dubai</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint magni harum nihil voluptates, recusandae.</p>
-            <a href="#">Read More...</a>
-          </div>
-          <div class="imgWrapper rounded-5">
-            <img
-              src="img/latest1.jpg"
-              alt="latest1"
-              class="img-fluid rounded-5"
-            />
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="img-content">
-            <h3>Mistakes Every Couple Makes When They Travel Together</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint magni harum nihil voluptates, recusandae.</p>
-            <a href="#">Read More...</a>
-          </div>
-          <div class="imgWrapper rounded-5">
-            <img
-              src="img/latest2.jpg"
-              alt="latest2"
-              class="img-fluid rounded-5"
-            />
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="img-content">
-            <h3>Remember This 10 Things Before Booking Hotel.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint magni harum nihil voluptates, recusandae.</p>
-            <a href="#">Read More...</a>
-          </div>
-          <div class="imgWrapper rounded-5">
-            <img
-              src="img/latest3.jpg"
-              alt="latest3"
-              class="img-fluid rounded-5"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section class="fadeOutSlider">
-      <div>
-        <div>Img 1</div>
-        <div>1</div>
-      </div>
-      <div>
-        <div>Img 2</div>
-        <div>2</div>
-      </div>
-      <div>
-        <div>Img 3</div>
-        <div>3</div>
-      </div>
-      <div>
-        <div>Img 4</div>
-        <div>4</div>
-      </div>
-      <div>
-        <div>Img 5</div>
-        <div>5</div>
-      </div>
-    </section> -->
-
-    <section class="subscribe py-lg-5">
-      <div class="text-center py-5">
-        <h2 class="pt-5">Subscribe & Get Special Discount!</h2>
-        <p class="w-50 m-auto pt-3">
-          Don’t Wanna Miss Somethings? Subscribe Right Now And Get The Special
-          Discount And Monthly Newsletter.
-        </p>
-        <div class="input-group w-50 mb-3 m-auto my-5">
-          <input
-            type="text"
-            class="form-control rounded-left shadow"
-            placeholder="Enter Your Email Address..."
-            aria-label="Recipient's username"
-            aria-describedby="button-addon2"
+    <!-- T O P B A R -->
+    <section class="top-bar">
+      <div class="con">
+        <div>
+          <img
+            src="Banking Khabar - online portal Nepal_files/1140x100.gif"
+            alt="gif-file"
           />
-          <button
-            class="btn rounded-right shadow px-5"
-            type="button"
-            id="button-addon2"
-          >
-            Subscribe
-          </button>
+        </div>
+        <div>
+          <img
+            src="Banking Khabar - online portal Nepal_files/mahabir-pun.gif"
+            alt="gif-file"
+          />
+        </div>
+        <div class="sbs">
+          <div class="sbs-l">
+            <img
+              src="Banking Khabar - online portal Nepal_files/logo1-1.jpg"
+              alt="gif-file"
+            />
+          </div>
+          <div class="sbs-r">
+            <img
+              src="Banking Khabar - online portal Nepal_files/prabhumoney.gif"
+              alt="gif-file"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <footer class="pt-5">
-      <div class="d-flex gap-5 container m-auto py-5 my-5">
-        <div class="leftmost">
-          <img src="img/logo.png" alt="logo" class="pb-4"/>
-          <p class="w-75">
-            Management consulting includes a broad range of activities, and the
-            many firms and their members often define these practices.
-          </p>
-          <div>
-            <ul>
-              <a href="#"
-                ><li><i class="fab fa-facebook-f"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fab fa-twitter"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fab fa-instagram"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fab fa-google-plus-g"></i></li
-              ></a>
-            </ul>
+    <!-- N A V B A R -->
+    <div class="container">
+      <nav>
+        <ul>
+          <li>मुख्य पेज</li>
+          <li>राष्ट्र बैंक</li>
+          <li>बैंकिङ खबर</li>
+          <li>अन्तरवार्ता</li>
+          <li>प्रविधि</li>
+          <li>वित्तीय साक्षरता</li>
+          <li>बीमा</li>
+          <li>शेयर बजार</li>
+          <li>विशेष</li>
+          <li>दस्तावेज</li>
+          <li>बैंकिङ सूचना</li>
+          <li>English</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="con">
+      <div class="border">
+        <img
+          src="Banking Khabar - online portal Nepal_files/1200x120.gif"
+          alt="advertisement"
+        />
+      </div>
+    </div>
+    <div class="con">
+      <div class="border">
+        <img
+          src="Banking Khabar - online portal Nepal_files/BOK-Smart-Banking-Karobar-landing-page1000X100.gif"
+          alt="advertisement"
+        />
+      </div>
+    </div>
+    <h1>तरलता अभावका कारण, समाधानका उपाय र भएका प्रयास</h1>
+    <div class="con">
+      <div>
+        <img
+          src="Banking Khabar - online portal Nepal_files/prakash-shresth-a9.jpg"
+          alt="ps"
+        />
+      </div>
+    </div>
+    <div class="con">
+      <div>
+        <img
+          src="Banking Khabar - online portal Nepal_files/prabhu.gif"
+          alt="advertisement"
+        />
+      </div>
+    </div>
+    <h1>वित्तीय स्थायित्वका लागि नेपाल राष्ट्र बैंकको प्रयास</h1>
+    <br /><br />
+    <hr class="con blue-border" />
+    <h1>चुनावपछि तरलता समस्या सहज हुने अपेक्षा</h1>
+    <br /><br />
+    <hr class="con blue-border" />
+
+    <div class="half con">
+      <div class="left">
+        <h1>मुख्य</h1>
+        <div class="half-lr">
+          <div class="half-left-l">
+            <img
+              src="Banking Khabar - online portal Nepal_files/nb-bank.jpg"
+              alt="bank"
+            />
+            <h3>
+              मर्जरकाे अन्तिम तयारीमा पुगेको एनबी बैंकका कर्मचारी आन्दोलित !
+            </h3>
+            <p>
+              बैंकिङ खबर/ नबिल बैंकसँग मर्जरको अन्तिम तयारीमा पुगेको नेपाल
+              बंगलादेश बैंक(एनबी) का कर्मचारीहरु आन्दोलित भएका छन् । बैंकका
+              कर्मचारी संघले आफ्ना माग पुरा नभएको भन्दै उनीहरुले आइतबारदेखि
+              सांकेतिक विरोध शुरु गरेका हुन् । आन्दोलन अनुसार संघले आइतबार
+              अपरान्ह ३ बजेदेखि ५ बजेसम्म हातमा कालोपट्टी बाधेर काम गर्ने तथा
+              ब्यानर टाँसेका छन् । त्यस्तै वैशाख २६
+            </p>
+          </div>
+          <div class="half-left-r">
+            <h3>
+              मुद्रास्फीति : माग प्रेरित मुद्रास्फीति र लागत वृद्धि मुद्रास्फीति
+            </h3>
+            <h3>धमाधम मर्जरको बाटो रोज्दै इन्स्योरेन्स कम्पनी</h3>
+            <h3>ब्याजदर महंगो हुँदा पुँजी बजारमा नकारात्मक असर</h3>
+            <h3>बैंकिङ सुविधाको अप-बिक्री</h3>
+            <h3>हिमालयन जनरल र एभरेष्ट इन्स्योरेन्स मर्जरमा जाने</h3>
+            <h3>कर्जाको माग उच्च</h3>
           </div>
         </div>
-        <div>
-          <h4 class="pb-4">SERVICES</h4>
-          <ul>
-            <li>Delicious Food</li>
-            <li>Parking Area</li>
-            <li>Swimming Pool</li>
-            <li>Spa Salon</li>
-            <li>Exercise Space</li>
-          </ul>
+      </div>
+      <div class="right">
+        <img
+          src="Banking Khabar - online portal Nepal_files/300x200.gif"
+          alt="advertisement"
+        />
+        <img
+          src="https://i1.wp.com/bankingkhabar.com/wp-content/uploads/2021/05/Banking-Training.gif?w=640&ssl=1"
+          alt="advertisement"
+        />
+      </div>
+    </div>
+
+    <div class="banner con">
+      <img
+        src="https://bankingkhabar.com/wp-content/uploads/2021/09/Design1.gif"
+        alt="advertisement"
+      />
+    </div>
+
+    <div class="tri-box con">
+      <h3 class="bg">विशेष</h3>
+      <div class="tri-box-flex">
+        <div class="tri">
+          <img
+            src="https://bankingkhabar.com/wp-content/uploads/2022/05/election.jpg"
+            alt="pictures"
+          />
+          <h3>चुनावपछि तरलता समस्या सहज हुने अपेक्षा</h3>
         </div>
-        <div>
-          <h4 class="pb-4">IMPORTANT LINK</h4>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Populer Destinition</a></li>
-            <li><a href="#">Awesome Rooms</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Pricing Plan</a></li>
-          </ul>
+        <div class="tri">
+          <img
+            src="https://bankingkhabar.com/wp-content/uploads/2022/04/liqua.jpg"
+            alt="pictures"
+          />
+          <h3>तरलता अभाव चर्किदोः कर्जा दिन नसक्ने अवस्थामा बैंक, वित्त</h3>
         </div>
-        <div>
-          <h4 class="pb-4">CONTACT</h4>
-          <ul>
-            <li>
-              <i class="fa fa-map-marker-alt"></i> 7 Green Lake Street
-              Crawfordsville, IN 47933
-            </li>
-            <li><i class="fas fa-phone-alt"></i> +1 800 123 456 789</li>
-            <li><i class="fas fa-paper-plane"></i> parador@gmail.com</li>
-          </ul>
+        <div class="tri">
+          <img
+            src="https://bankingkhabar.com/wp-content/uploads/2022/03/murger-ban.jpg       "
+            alt="pictures"
+          />
+          <h3>
+            वाणिज्य बैंकहरुलाई बीग मर्जरमा लैजान यस्तो छ राष्ट्र बैंकको रणनीति
+          </h3>
         </div>
       </div>
-      <div class="bottom text-center">
-        <p>Copyright © 2022 Parador by wpOceans. All Rights Reserved.</p>
+    </div>
+
+    <div class="banner con">
+      <img
+        src="https://bankingkhabar.com/wp-content/uploads/2022/04/840-100.gif"
+      />
+    </div>
+
+    <div class="three-box con">
+      <div class="three-box-flex">
+        <div class="three">
+          <h3 class="bg">राष्ट्र बैंक</h3>
+          <img
+            src="https://bankingkhabar.com/wp-content/uploads/2021/08/prakash-shresth-a9.jpg"
+            alt="pictures"
+          />
+          <h3>तरलता अभावका कारण, समाधानका उपाय र भएका प्रयास</h3>
+          <h3>राष्ट्र बैंकले रु. २०.१८ अर्बको ट्रेजरी बिल जारी गर्दै</h3>
+          <h3>वित्तीय स्थायित्वका लागि नेपाल राष्ट्र बैंकको प्रयास</h3>
+          <h3>राष्ट्र बैंकद्वारा किसान लघुवित्तको बोनस सेयर कटौती</h3>
+        </div>
+        <div class="three">
+          <h3 class="bg">बैंकिङ खबर</h3>
+          <img
+            src="https://bankingkhabar.com/wp-content/uploads/2022/05/eswwa.jpg"
+            alt="pictures"
+          />
+          <h3>
+            रोमानियाको स्मिथ एण्ड स्मिथ र इसेवा मनी ट्रान्सफरबीच रेमिट्यान्स
+            भुक्तानी सम्झौता
+          </h3>
+          <h3>एनसीसी बैकको वित्तीय साक्षरता कार्यक्रम</h3>
+          <h3>
+            बैंक अफ काठमाण्डूका ग्राहकहरुलाई विभिन्न स्थानहरुमा ४५ प्रतिशत
+            सम्मको विशेष छुट
+          </h3>
+          <h3>नबिल बैंक युएसडीएमा सूचीकरण</h3>
+        </div>
+        <div class="three">
+          <div class="threee">
+            <h3 class="bg">नयाँ अपडेट</h3>
+            <h3 class="half-lr">
+              तरलता अभावका कारण, समाधानका उपाय र भएका प्रयास
+            </h3>
+            <h3 class="half-lr">
+              विदेशी मुद्रामा रेमिट्यान्सको योगदान ५६ प्रतिशत
+            </h3>
+            <h3 class="half-lr">
+              रोमानियाको स्मिथ एण्ड स्मिथ र इसेवा मनी ट्रान्सफरबीच रेमिट्यान्स
+              भुक्तानी सम्झौता
+            </h3>
+            <h3 class="half-lr">
+              राष्ट्र बैंकले रु. २०.१८ अर्बको ट्रेजरी बिल जारी गर्दै
+            </h3>
+            <h3 class="half-lr">
+              बोन्ड जारी गरेर कोरोना बीमाको दाबी भुक्तानी गर्न चार्टर्ड
+              एकाउन्टेन्टस् संघको सुझाव
+            </h3>
+            <h3 class="half-lr">
+              महालक्ष्मी लाईफ इन्स्योरेन्सकाे विशेष साधारण सभा सम्पन्न, मर्जर
+              कमिटी गठन
+            </h3>
+            <h3 class="half-lr">
+              वित्तीय स्थायित्वका लागि नेपाल राष्ट्र बैंकको प्रयास
+            </h3>
+            <h3 class="half-lr">एनसीसी बैकको वित्तीय साक्षरता कार्यक्रम</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="many con">
+      <div class="many-left">
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2022/02/Global-Sahayatri-GIF_800x150.gif"
+          alt="pictures"
+        />
+        <div class="padded">
+          <h3 class="bg">अन्तरवार्ता</h3>
+          <div class="many-left-flex">
+            <div class="many-left-flex-item">
+              <img
+                src="https://bankingkhabar.com/wp-content/uploads/2021/05/maha-prasad-bbbb.jpg"
+                alt="pictures"
+              />
+            </div>
+            <div class="many-left-flex-item">
+              <h3 class="heading">
+                अर्थतन्त्र पुनरूत्थान र बाह्य क्षेत्रमा परेको दवाव व्यवस्थापनमा
+                राष्ट्र बैंकको प्रयास
+              </h3>
+              <p>
+                बैंकिङ खबर/ नेपाल राष्ट्र बैंक आफ्नो स्थापनाको ६६ वर्ष पूरा गरी
+                ६७ औँ वर्षमा प्रवेश गरेको अवसरमा काठमाडौंमा विशेष कार्यक्रम
+                सम्पन्न गरेको छ । यस अवसरमा बैंकको उद्देश्य प्राप्तिका लागि
+                आ–आफ्नो तर्फबाट महत्वपूर्ण भूमिका निर्वाह गर्ने बैंक सञ्चालक
+                समिति र बैंकका सम्पूर्ण कर्मचारीलाई गभर्नर महाप्रसाद अधिकारी
+                धन्यवाद ज्ञापन गर्नुभएको छ । बैंकको कार्यसम्पादनमा महत्वपूर्ण
+                सहयोग
+              </p>
+            </div>
+            <div class="many-left-flex-item">
+              <h3 class="bg">बीमा</h3>
+              <img
+                src="https://bankingkhabar.com/wp-content/uploads/2022/05/IMG_1703.jpg"
+                alt="pictures"
+              />
+              <h3>
+                बोन्ड जारी गरेर कोरोना बीमाको दाबी भुक्तानी गर्न चार्टर्ड
+                एकाउन्टेन्टस् संघको सुझाव
+              </h3>
+              <h3>
+                महालक्ष्मी लाईफ इन्स्योरेन्सकाे विशेष साधारण सभा सम्पन्न, मर्जर
+                कमिटी गठन
+              </h3>
+              <h3>हिमालयन र एभरेष्टले पाए सैद्धान्तिक सहमति</h3>
+              <h3>राष्ट्र बैंकद्वारा किसान लघुवित्तको बोनस सेयर कटौती</h3>
+            </div>
+            <div class="many-left-flex-item">
+              <h3 class="bg">अर्थ</h3>
+              <img
+                src="https://bankingkhabar.com/wp-content/uploads/2021/07/bajet-1.jpg"
+                alt="pictures"
+              />
+              <h3>जेठ ३ गते बजेट अधिवेशन बोलाउन सिफारिस</h3>
+              <h3>मजबुत बन्दै अमेरिकी डलर(इतिहाससहित)</h3>
+              <h3>निर्वाचनमा टेलिकमको भ्वाइस, एसएमएस र डाटा अफर</h3>
+              <h3>जेठ ३ देखि संसदमा प्रि–बजेटमा छलफल</h3>
+            </div>
+            <div class="many-left-flex-item">
+              <h3 class="bg">शेयर बजार</h3>
+              <img
+                src="https://bankingkhabar.com/wp-content/uploads/2020/11/IPO-urja-5.jpg"
+                alt="pictures"
+              />
+              <h3>
+                हिमालयन हाइड्रोपावरको आईपीओ खुल्ला, यी हुन् पाइपलाइनमा रहेका
+                कम्पनी
+              </h3>
+              <h3>सार्वजनिक शेयर विकृति, आन्दोलन र स्थानीय चुनाव</h3>
+              <h3>विदेशमा रहेका नेपालीलाई छिट्टै आईपीओमा कोटा</h3>
+              <h3>पुँजी बजारको नीतिगत सुधार गर्न नेप्से तयारः सिईओ कार्की</h3>
+            </div>
+            <div class="many-left-flex-item">
+              <h3 class="bg">वित्तीय साक्षरता</h3>
+              <img
+                src="https://bankingkhabar.com/wp-content/uploads/2022/05/c-asba.jpg"
+                alt="pictures"
+              />
+              <h3>आस्वा प्रणाली के हो ? यसबाट कसरी दिने सेयर आवेदन ?</h3>
+              <h3>नागरिक बचतपत्र के हो ? कसरी किन्ने (जान्नुहोस् बिस्तृतमा)</h3>
+              <h3>के हो ‘ट्रेजरी’ बिल ? कसरी जारी गरिन्छ ?</h3>
+              <h3>के हो बेस रेट (आधार दर) ?</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="many-right">
+        <h3 class="bg">प्रोफाइल</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2022/04/singh1649327734.png"
+          alt="pictures"
+        />
+        <h3>
+          बैंक अफ इन्डियाका म्यानेजर मठारू, जो सोही बैंकका सेक्युरिटी गार्ड थिए
+          !
+        </h3>
+        <h3 class="bg">दृष्टिकोण</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2022/05/suraj-ghimiri.jpg"
+          alt="pictures"
+        />
+        <h3>नेपालको नविन बैंकिङ प्रणाली र यसका वर्तमान चुनौतीहरु</h3>
+        <h3 class="bg">बैंकिङ मुभमेन्ट</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2021/11/CEO_sharwan-lal-maskey.jpg"
+          alt="pictures"
+        />
+        <h3>बैंक अफ काठमाण्डूको सिइओमा श्रवललाल मास्के नियुक्त</h3>
+        <h3 class="bg">बीमा शिक्षा</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2022/03/insurance-q.jpg"
+          alt="pictures"
+        />
+        <h3>
+          बीमा गरेपछि कसरी हुन्छ जोखिम व्यवस्थापन ? बुझ्नै पर्ने तीन बुँदा :
+        </h3>
+        <h3 class="bg">पत्रपत्रिका</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2020/03/remit-aa.jpg"
+          alt="pictures"
+        />
+        <h3>विदेशी मुद्रामा रेमिट्यान्सको योगदान ५६ प्रतिशत</h3>
+        <img
+          src="https://bankingkhabar.com/wp-content/uploads/2022/05/300x300-2.gif"
+          alt="advertisement"
+        />
+      </div>
+    </div>
+
+    <div class="add con">
+      <div class="add-flex many">
+        <div class="add-left many-left">
+        <img src="https://bankingkhabar.com/wp-content/uploads/2022/02/rbb-1.gif" alt="advertisement" style="border: 2px solid red;">
+        <img src="https://bankingkhabar.com/wp-content/uploads/2021/08/Lumbini-General-Insurance.gif" alt="advertisement">
+      </div>
+      <div class="add-right many-right">
+        <ul>
+          <li><h3>Commercial Banks</h3></li>
+          <li><h3>Development Banks</h3></li>
+          <li><h3>Finance</h3></li>
+          <li><h3>MicroFinance</h3></li>
+          <li><h3>Remittance</h3></li>
+          <li><h3>Insurance</h3></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+
+    <!-- F O O T E R -->
+    <footer>
+      <div class="con foot">
+        <div>
+          <img src="Banking Khabar - online portal Nepal_files/logo1-1.jpg" alt="img">
+        </div>
+        <ul>
+          <li>Email: News:- bankingkhabar72@gmail.com</li>
+          <li>Contact-: 01-5706402</li>
+          <li>Marketing:- bankingkhabaradv@gmail.com</li>
+          <li>Contact-: 01-5705163</li>
+        </ul>
       </div>
     </footer>
-
-    <section class="arrow">
-      <div class="arr"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
-    </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
